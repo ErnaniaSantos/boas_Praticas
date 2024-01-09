@@ -1,4 +1,4 @@
-const { usuarios } = require('../bancodedados')
+const {usuarios} = require('../bancodedados')
 
 const listarUsuarios = async (req, res) => {
 	return res.json(usuarios)
